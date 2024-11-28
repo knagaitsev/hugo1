@@ -1,0 +1,24 @@
+{
+  "name": "hugo1",
+  "version": "1.0.0",
+  "description": "``` git submodule update --init --recursive ```",
+  "main": "index.js",
+  "scripts": {
+    "dev": "hugo server",
+    "build": "hugo build -d build",
+    "deploy": "npm run build && gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knagaitsev/hugo1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knagaitsev/hugo1/issues"
+  },
+  "homepage": "https://github.com/knagaitsev/hugo1#readme",
+  "dependencies": {
+    "gh-pages": "^6.2.0"
+  }
+}
