@@ -2,11 +2,8 @@
 author: "John Brown"
 title: "First Post"
 date: "2024-12-25"
-description: "This is the first post"
+description: "This is the first post description - it appears in search engines and at the top of the page"
 disableShare: true
-# tags: [""]
-ShowToc: false
-ShowBreadCrumbs: false
 ---
 
 This is the very first post!
@@ -26,7 +23,9 @@ Here is an example of **bolded text**, an example of *italicized text*
 Here is some code on a separate line:
 
 ```javascript
-console.log("hello world");
+for (let i = 0; i < 10; i++) {
+    console.log(`hello ${i}`);
+}
 ```
 
 And this is `inline code` or an identifier for something `important`
