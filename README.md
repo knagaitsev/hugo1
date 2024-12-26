@@ -1,5 +1,15 @@
 
-To install, first clone then do:
+## Demo Website
+
+Before anything else, make sure you have a working version of NodeJS and npm.
+
+Install Hugo (`https://gohugo.io/installation/`). The easiest way on Linux is:
+
+```
+sudo snap install hugo
+```
+
+Clone this repository, then do:
 
 ```
 git submodule update --init --recursive
